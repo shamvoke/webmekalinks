@@ -252,15 +252,15 @@ a:hover {
 	color-scheme:dark;
 }
 :root.theme-dark :focus-visible {
-	outline: 2px solid #4899F7;
+	outline: 2px solid #00ffff;
 	outline-offset: 2px;
   }
 :root.theme-dark body {
-	background-color:#121212;
+	background-color:#02044a;
 	color:#ffffff;
 }
 :root.theme-dark a:not(.button) {
-	color:#4899F7;
+	color:#00ffff;
 }
 :root.theme-dark a:not(.button):hover {
 	color:#7AB8FF;
@@ -272,15 +272,15 @@ a:hover {
 }
 @media (prefers-color-scheme:dark) {
 	:root.theme-auto body {
-	background-color:#121212;
+	background-color:#02044a;
 	color:#ffffff;
 }
 :root.theme-auto :focus-visible {
-    outline: 2px solid #4899F7;
+    outline: 2px solid #00ffff;
     outline-offset: 2px;
   }
 :root.theme-auto a:not(.button) {
-	color:#4899F7;
+	color:#00ffff;
 }
 :root.theme-auto a:not(.button):hover {
 	color:#7AB8FF;
