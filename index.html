@@ -84,12 +84,13 @@
               <!-- TikTok -->
               <a class="button button-tiktok" href="https://www.tiktok.com/@webmeka" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/tiktok.svg" alt="TikTok Logo">TikTok</a>
 
-              <!-- WhatsApp -->
-              <a class="button button-whatsapp" href="https://wa.me/254727756658" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/whatsapp.svg" alt="WhatsApp Logo">WhatsApp</a>
-
               <!-- X -->
               <a class="button button-x" href="https://x.com/webmeka" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/x.svg" alt="X Logo">Follow on X</a>
 
+              <!-- WhatsApp -->
+              <a class="button button-whatsapp" href="https://wa.me/254727756658" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/whatsapp.svg" alt="WhatsApp Logo">WhatsApp</a>
+
+              
               <!-- <a class="button button-yt" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube.svg" alt="YouTube Logo">YouTube</a>
 
               <a class="button button-yt-alt" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube-alt.svg" alt="YouTube Logo">YouTube</a>
@@ -109,8 +110,12 @@
 
       <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
       <footer>
-        <a href="https://webmeka.com/privacy-policy">Privacy Policy</a> © {new Date().getFullYear()} <a href="https://webmeka.com/" target="_blank" rel="noopener">WEBMEKA STUDIO | </a>All rights reserved.
+        <a href="https://webmeka.com/privacy-policy">Privacy Policy</a> ©  <span id="year"></span> <a href="https://webmeka.com/" target="_blank" rel="noopener">WEBMEKA STUDIO | </a>All rights reserved.
       </footer>
+
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
 
     </div>
   </div>
